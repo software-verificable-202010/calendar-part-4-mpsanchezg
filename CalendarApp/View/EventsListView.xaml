@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:CalendarApp.View"
              xmlns:Model="clr-namespace:CalendarApp.Model" x:Class="CalendarApp.View.EventsListView"
              xmlns:viewModel="clr-namespace:CalendarApp.ViewModel"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" Loaded="UserControl_Loaded">
     <UserControl.DataContext>
@@ -35,22 +36,22 @@
         <Label Content="Propietario" Margin="115,90,502,328.6" FontFamily="Microsoft YaHei" FontSize="16" />
         <TextBox Text="{Binding CustomEvent.Description}" Margin="275,249,285,0" FontSize="14" FontFamily="Microsoft YaHei Light" Height="71" VerticalAlignment="Top"/>
         <Label Content="{Binding CustomEvent.Owner.UserName}" Margin="275,90,342,328.6" FontFamily="Microsoft YaHei" FontSize="16" />
-        <DatePicker
+        <xctk:DateTimePicker
             HorizontalAlignment="Left"
-            SelectedDate="{Binding
+            Value="{Binding
                 Path=CustomEvent.FinishDateAndTime,
                 Mode=TwoWay}"
             Margin="325,208,0,0" 
             VerticalAlignment="Top" 
-            Width="120" RenderTransformOrigin="1.132,2.043" FontFamily="Microsoft YaHei UI Light" />
-        <DatePicker
+            Width="220" RenderTransformOrigin="1.132,2.043" FontFamily="Microsoft YaHei UI Light" />
+        <xctk:DateTimePicker
             HorizontalAlignment="Left"
-            SelectedDate="{Binding
+            Value="{Binding
                 Path=CustomEvent.StartDateAndTime,
                 Mode=TwoWay}"
             Margin="325,180,0,0" 
             VerticalAlignment="Top" 
-            Width="120" RenderTransformOrigin="1.132,2.043" FontFamily="Microsoft YaHei UI Light" />
+            Width="220" RenderTransformOrigin="1.132,2.043" FontFamily="Microsoft YaHei UI Light" />
 
     </Grid>
 </UserControl>
