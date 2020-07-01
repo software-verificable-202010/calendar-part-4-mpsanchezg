@@ -11,13 +11,11 @@ namespace Tests
 	{
 		private CalendarWeekModel calendarWeekModel;
 		private DateTime currentDate;
-		private DateTime notCurrentDate;
 		private DateTime mondayDate;
 		[SetUp]
 		public void Setup()
 		{
 			currentDate = DateTime.Today;
-			notCurrentDate = currentDate.AddDays(1);
 			mondayDate = new DateTime(1996, 11,11);
 			calendarWeekModel = new CalendarWeekModel(currentDate);
 		}
