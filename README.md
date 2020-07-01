@@ -18,8 +18,8 @@ Unit Test:
 
 ### Static Analysis
 El análisis estático se encuentra en la carpeta "Additional Features > Static Analysis".
-En este podrá visualizar un archivo .csv con los *warnings* obtenidos por el análisis estático, junto con la explicación de por qué se dejaron.
-Además, las imágenes con el conjunto de reglas "static_analysis_rules.png" y los screen capture de la revisión: "static_analysis_revision_1.png", "static_analysis_revision_2.png", "static_analysis_revision_3.png", "static_analysis_revision_4.png".
+En este podrá visualizar un archivo .csv con los *warnings* obtenidos por el análisis estático, junto con la explicación de por qué se dejaron. Recomendación: subirlo a Google Drive para verlo detalladamente.
+Además, las imágenes con el conjunto de reglas "static_analysis_rules.png" y los screen capture de la revisión: "static_analysis_revision_1.png" y "static_analysis_revision_2.png".
 
 ### Unit Tests
 Para las pruebas unitarias se utilizó NUnit, donde se puede observar el alcance y la cantidad de pruebas en la carpeta "Additional Features > Unit Tests".
