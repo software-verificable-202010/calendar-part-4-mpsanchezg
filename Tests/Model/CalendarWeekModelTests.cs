@@ -54,13 +54,6 @@ namespace Tests
 			Assert.IsTrue(calendarWeek.DaysOfWeek[6].Color == Constants.ColorOfWeekend);
 		}
 
-		[Test]
-		public void TestShouldResturnMondayWhenIsInsertedADay()
-		{
-			var wednesdayOfTestWeek = 2;
-			var result = calendarWeekModel.GetMonday(mondayDate.AddDays(-1), wednesdayOfTestWeek);
-			Assert.AreEqual(mondayDate, result);
-		}
 
 		[Test]
 		public void TestShouldReturnListOfCalendarDaysOfWeekBySelectedDay()
