@@ -1,8 +1,7 @@
-﻿using System;
-using CalendarApp.Model;
+﻿using CalendarApp.Model;
 using NUnit.Framework;
 
-namespace Tests
+namespace Tests.Model
 {
     public class CalendarModelTests
     {

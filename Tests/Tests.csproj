@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\calendar-part-3-mpsanchezg\CalendarApp.csproj" />
+    <ProjectReference Include="..\CalendarApp\CalendarApp.csproj" />
   </ItemGroup>
 
 </Project>

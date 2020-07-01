@@ -4630,8 +4630,8 @@
     },
     "CalendarApp/1.0.0": {
       "type": "project",
-      "path": "../calendar-part-3-mpsanchezg/CalendarApp.csproj",
-      "msbuildProject": "../calendar-part-3-mpsanchezg/CalendarApp.csproj"
+      "path": "../CalendarApp/CalendarApp.csproj",
+      "msbuildProject": "../CalendarApp/CalendarApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4668,8 +4668,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\calendar-part-3-mpsanchezg\\CalendarApp.csproj": {
-              "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\calendar-part-3-mpsanchezg\\CalendarApp.csproj"
+            "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj": {
+              "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj"
             }
           }
         }

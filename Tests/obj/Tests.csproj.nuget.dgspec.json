@@ -4,11 +4,11 @@
     "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\calendar-part-3-mpsanchezg\\CalendarApp.csproj": {
+    "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\calendar-part-3-mpsanchezg\\CalendarApp.csproj",
+        "projectUniqueName": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj",
         "projectName": "CalendarApp",
-        "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\calendar-part-3-mpsanchezg\\CalendarApp.csproj"
+        "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj"
       },
       "frameworks": {
         "net472": {}
@@ -37,8 +37,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\calendar-part-3-mpsanchezg\\CalendarApp.csproj": {
-                "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\calendar-part-3-mpsanchezg\\CalendarApp.csproj"
+              "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj": {
+                "projectPath": "D:\\Universidad\\Universidad\\Anos\\Sexto_Ano\\Diseño de Software Verificable\\project\\CalendarApp\\CalendarApp.csproj"
               }
             }
           }
