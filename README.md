@@ -2,6 +2,9 @@
 
 ## Entrega 4
 
+### Observaciones de Funcionalidad
+Para cambiar el calendario de la vista semanal, primero se debe apretar el botón "Ver calendario", luego seleccionar el usuario y volver a presionar el botón.
+
 ### Consideraciones
 Esta entrega debe contener lo siguiente:
 
