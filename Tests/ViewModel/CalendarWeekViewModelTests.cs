@@ -19,7 +19,7 @@ namespace Tests.ViewModel
 		[Test]
 		public void TestShouldReturnCurrentDate()
 		{
-			Assert.AreEqual(DateTime.Today, calendarWeek.CurrentDay);
+			Assert.AreEqual(DateTime.Today, calendarWeek.CurrentDay.Date);
 		}
 	}
 }

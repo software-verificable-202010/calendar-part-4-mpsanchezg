@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CalendarApp.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -37,6 +38,10 @@ namespace CalendarApp.Model
         public static readonly string ColorOfWeek = "#FFAFEEEE";
         public static readonly string ColorOfToday = "#FF00CED1";
         public static readonly string ColorOfDaysOfOtherMonth = "#FFD7F3F3";
+        public static readonly string ColorOfWeekendOfOtherUser = "#FFFA8072";
+        public static readonly string ColorOfWeekOfOtherUser = "#FFFFA07A";
+        public static readonly string ColorOfTodayOfOtherUser = "#FFD95030";
+        public static readonly string ColorOfDaysOfOtherMonthOfOtherUser = "#FFFDE3DB";
         public static readonly string SuccessfulEvent = "¡Evento creado con éxito!";
         public static readonly string SuccessfulEditEvent = "¡Evento editado con éxito!";
         public static readonly string FailedEvent = "Error. Revise que el evento tenga título y que las fechas sean correctas.";
@@ -55,5 +60,10 @@ namespace CalendarApp.Model
             get; 
             set; 
         }
-	}
+        public static UserModel SelectedUser
+        {
+            get;
+            set;
+        }
+    }
 }

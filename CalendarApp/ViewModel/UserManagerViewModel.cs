@@ -43,6 +43,7 @@ namespace CalendarApp.ViewModel
 				}
 				currentUser = value;
 				Constants.CurrentUser = CurrentUser;
+				Constants.SelectedUser = CurrentUser;
 				NotifyPropertyChanged(currentUserProperty);
 
 			}
